@@ -210,10 +210,43 @@ img {
   font-size: 1.08rem;
 }
 
+.library-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.library-card p {
+  margin: 0;
+}
+
+.detail-list {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 0;
+}
+
+.detail-list li + li {
+  margin-top: 10px;
+}
+
+.detail-list strong {
+  display: block;
+  margin-bottom: 2px;
+  color: var(--text);
+}
+
+.detail-list span {
+  color: var(--text-soft);
+}
+
 .card ul,
 .document ul {
   margin: 0;
   padding-left: 20px;
+}
+
+.library-card .detail-list {
+  margin-top: 18px;
+  padding-left: 0;
 }
 
 .info-panel {
@@ -282,6 +315,7 @@ img {
   }
 
   .card-grid,
+  .library-grid,
   .meta-list {
     grid-template-columns: 1fr;
   }

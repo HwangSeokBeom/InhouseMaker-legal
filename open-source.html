@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>InhouseMaker | 오픈소스 라이선스</title>
+  <meta name="description" content="InhouseMaker 앱에서 사용할 수 있는 대표 오픈소스 라이브러리와 라이선스 안내를 확인할 수 있습니다.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">InhouseMaker</a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="community.html">Community Guidelines</a>
+        <a href="open-source.html">Open Source</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="document-page">
+    <div class="container">
+      <div class="page-heading">
+        <p class="eyebrow">Open Source Licenses</p>
+        <h1>오픈소스 라이선스</h1>
+        <p class="lead">InhouseMaker 앱은 일부 오픈소스 라이브러리를 사용합니다. 각 라이브러리는 해당 라이선스 조건에 따라 사용됩니다.</p>
+      </div>
+
+      <article class="document">
+        <section>
+          <h2>1. 안내</h2>
+          <p>아래 목록은 iOS 앱에서 자주 사용하는 대표 라이브러리를 기준으로 정리한 예시입니다. 실제 사용 라이브러리와 세부 버전은 앱 버전에 따라 일부 추가, 변경 또는 제외될 수 있습니다.</p>
+          <ul>
+            <li>실제 사용 라이브러리는 앱 버전, 배포 환경, 기능 구성에 따라 달라질 수 있습니다.</li>
+            <li>각 오픈소스의 저작권은 원 저작자 및 기여자에게 있습니다.</li>
+            <li>정확한 라이선스 전문과 고지 의무는 각 공식 저장소의 LICENSE 또는 NOTICE 파일을 함께 참고해 주세요.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>2. 대표 라이브러리 목록</h2>
+          <p>현재 프로젝트에 맞게 추후 수정할 수 있도록, 앱 안내 페이지 기준으로 읽기 쉬운 형태로 정리했습니다.</p>
+
+          <div class="card-grid library-grid">
+            <article class="card library-card">
+              <h3>SnapKit</h3>
+              <p>코드 기반 화면 구성에서 Auto Layout 제약을 간결하게 작성할 때 자주 사용하는 라이브러리입니다.</p>
+              <ul class="detail-list">
+                <li><strong>용도</strong><span>Auto Layout DSL</span></li>
+                <li><strong>라이선스</strong><span>MIT License</span></li>
+                <li><strong>링크</strong><span><a href="https://github.com/SnapKit/SnapKit" target="_blank" rel="noopener noreferrer">GitHub 저장소</a></span></li>
+                <li><strong>저작권 표기</strong><span>Copyright (c) 2011-Present SnapKit Team</span></li>
+              </ul>
+            </article>
+
+            <article class="card library-card">
+              <h3>RxSwift</h3>
+              <p>이벤트 흐름과 비동기 처리를 반응형 패턴으로 구성할 때 활용할 수 있는 대표 라이브러리입니다.</p>
+              <ul class="detail-list">
+                <li><strong>용도</strong><span>Reactive Programming</span></li>
+                <li><strong>라이선스</strong><span>MIT License</span></li>
+                <li><strong>링크</strong><span><a href="https://github.com/ReactiveX/RxSwift" target="_blank" rel="noopener noreferrer">GitHub 저장소</a></span></li>
+                <li><strong>저작권 표기</strong><span>Copyright © 2015 Shai Mishali, Krunoslav Zaher</span></li>
+              </ul>
+            </article>
+
+            <article class="card library-card">
+              <h3>Kingfisher</h3>
+              <p>프로필 이미지나 콘텐츠 썸네일처럼 원격 이미지를 내려받고 캐시할 때 자주 사용됩니다.</p>
+              <ul class="detail-list">
+                <li><strong>용도</strong><span>Image Downloading / Caching</span></li>
+                <li><strong>라이선스</strong><span>MIT License</span></li>
+                <li><strong>링크</strong><span><a href="https://github.com/onevcat/Kingfisher" target="_blank" rel="noopener noreferrer">GitHub 저장소</a></span></li>
+                <li><strong>저작권 표기</strong><span>Copyright (c) 2019 Wei Wang</span></li>
+              </ul>
+            </article>
+
+            <article class="card library-card">
+              <h3>Alamofire</h3>
+              <p>네트워크 요청과 응답 처리를 안정적으로 구성할 때 널리 사용되는 HTTP 네트워킹 라이브러리입니다.</p>
+              <ul class="detail-list">
+                <li><strong>용도</strong><span>Networking</span></li>
+                <li><strong>라이선스</strong><span>MIT License</span></li>
+                <li><strong>링크</strong><span><a href="https://github.com/Alamofire/Alamofire" target="_blank" rel="noopener noreferrer">GitHub 저장소</a></span></li>
+                <li><strong>저작권 표기</strong><span>Copyright (c) 2014-2022 Alamofire Software Foundation</span></li>
+              </ul>
+            </article>
+
+            <article class="card library-card">
+              <h3>Starscream</h3>
+              <p>실시간 매칭 상태나 이벤트 동기화처럼 WebSocket 연결이 필요한 경우 사용할 수 있는 클라이언트 라이브러리입니다.</p>
+              <ul class="detail-list">
+                <li><strong>용도</strong><span>WebSocket Client</span></li>
+                <li><strong>라이선스</strong><span>Apache License 2.0</span></li>
+                <li><strong>링크</strong><span><a href="https://github.com/daltoniam/Starscream" target="_blank" rel="noopener noreferrer">GitHub 저장소</a></span></li>
+                <li><strong>저작권 표기</strong><span>Copyright (c) 2014-2023 Dalton Cherry</span></li>
+              </ul>
+            </article>
+
+            <article class="card library-card">
+              <h3>DGCharts</h3>
+              <p>통계 화면, 참여 추이, 간단한 시각화 기능이 필요한 경우 적용할 수 있는 차트 라이브러리입니다.</p>
+              <ul class="detail-list">
+                <li><strong>용도</strong><span>Chart Rendering</span></li>
+                <li><strong>라이선스</strong><span>Apache License 2.0</span></li>
+                <li><strong>링크</strong><span><a href="https://github.com/ChartsOrg/Charts" target="_blank" rel="noopener noreferrer">GitHub 저장소</a></span></li>
+                <li><strong>저작권 표기</strong><span>Copyright 2016-2019 Daniel Cohen Gindi &amp; Philipp Jahoda</span></li>
+              </ul>
+            </article>
+
+            <article class="card library-card">
+              <h3>Firebase Apple SDK</h3>
+              <p>인증, 메시징, 분석 등 Google 제공 기능을 선택적으로 연동할 때 사용할 수 있는 SDK 모음입니다.</p>
+              <ul class="detail-list">
+                <li><strong>용도</strong><span>Authentication / Messaging / Analytics</span></li>
+                <li><strong>라이선스</strong><span>주요 오픈소스 SDK는 Apache License 2.0이며, 일부 구성요소 및 서비스 이용에는 별도 약관 또는 고지 확인이 필요할 수 있습니다.</span></li>
+                <li><strong>링크</strong><span><a href="https://github.com/firebase/firebase-ios-sdk" target="_blank" rel="noopener noreferrer">GitHub 저장소</a></span></li>
+                <li><strong>저작권 표기</strong><span>Google 및 각 구성요소 기여자, 세부 표기는 SDK별 LICENSE / NOTICE 참조</span></li>
+              </ul>
+            </article>
+          </div>
+        </section>
+
+        <section>
+          <h2>3. 추가 안내</h2>
+          <p>GoogleSignIn, AppAuth 계열과 같이 로그인 또는 인증 흐름에 따라 선택적으로 포함되는 라이브러리는 실제 배포 구성에 맞춰 별도 항목으로 추가 표기할 수 있습니다.</p>
+          <p>정식 고지용 문서를 운영할 때에는 실제 프로젝트의 의존성 목록과 배포 버전을 기준으로 최종 점검해 주세요.</p>
+        </section>
+
+        <section>
+          <h2>4. 문의</h2>
+          <p>오픈소스 고지 내용이나 표시 방식에 대해 문의가 필요한 경우 고객지원 페이지를 통해 연락할 수 있습니다.</p>
+          <div class="link-row">
+            <a class="text-link" href="support.html">고객지원 페이지로 이동</a>
+            <a class="text-link" href="index.html">메인 페이지로 돌아가기</a>
+          </div>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>문의: <a href="mailto:tjrqja014@gmail.com">tjrqja014@gmail.com</a></p>
+      <nav aria-label="하단 링크">
+        <a href="index.html">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="community.html">Community Guidelines</a>
+        <a href="open-source.html">Open Source</a>
+      </nav>
+      <p>최종 업데이트: 2026-04-20</p>
+    </div>
+  </footer>
+</body>
+</html>
